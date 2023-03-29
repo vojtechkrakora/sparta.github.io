@@ -1,0 +1,29 @@
+<table>
+  <thead>
+  <tr>
+    <th>Pořadí</th>
+    <th *ngIf="showColumn">Jméno</th>
+    <th>Příjmení</th>
+    <th>Tým</th>
+    <th *ngIf="showColumn">Plné</th>
+    <th>Dorážka</th>
+    <th *ngIf="showColumn">Chyby</th>
+    <th>Celkem</th>
+    <!-- Add more columns as needed -->
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of data; let i = index">
+    <td>{{ i + 1 }}</td>
+    <td *ngIf="showColumn">{{ item.firstname }}</td>
+    <td>{{ item.lastname }}</td>
+    <td  *ngIf="showColumn">{{ item.team }}</td>
+    <td  *ngIf="!showColumn">{{ item.team.substring(0,3) }}</td>
+    <td *ngIf="showColumn" [style.color]="item.result1 > 300 ? 'red' : 'black'">{{ item.result1 }}</td>
+    <td [style.color]="item.result2 > 140 ? 'red' : 'black'">{{ item.result2 }}</td>
+    <td *ngIf="showColumn" [style.color]="item.result3 === 0 ? 'blue' : 'black'">{{ item.result3 }}</td>
+    <td [style.color]="(item.result1 + item.result2) > 440 ? 'green' : 'black'">{{ item.result1 + item.result2 }}</td>
+    <!-- Add more columns as needed -->
+  </tr>
+  </tbody>
+</table>
