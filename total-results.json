@@ -11,16 +11,16 @@
     "firstname": "Jane",
     "lastname": "Smith",
     "team": "Team B",
-    "result1": 512,
-    "result2": 208,
+    "result1": 300,
+    "result2": 146,
     "result3": 15
   },
   {
     "firstname": "Bob",
     "lastname": "Johnson",
     "team": "Team C",
-    "result1": 876,
-    "result2": 381,
+    "result1": 300,
+    "result2": 146,
     "result3": 33
   },
   {
