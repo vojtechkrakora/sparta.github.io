@@ -2,20 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import { TotalResultsService } from '../total-results-service.service';
 import { BreakpointObserver } from '@angular/cdk/layout';
 import { ActivatedRoute } from '@angular/router';
+import {TotalResultsComponent} from "../../total-results/total-results.component";
 
 @Component({
   selector: 'app-team-data',
   templateUrl: './team-data.component.html',
   styleUrls: ['./team-data.component.css']
 })
-export class TeamDataComponent implements OnInit {
+export class TeamDataComponent extends TotalResultsComponent implements OnInit {
 
   data: any[] | undefined;
   showColumn: boolean = true;
   teamName: string | null;
 
-  constructor(private service: TotalResultsService, private breakpointObserver: BreakpointObserver,
+  constructor(protected service: TotalResultsService, protected breakpointObserver: BreakpointObserver,
       private route: ActivatedRoute) {
+    super(service, breakpointObserver)
     this.teamName = null
   }
 

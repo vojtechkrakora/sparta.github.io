@@ -5,7 +5,8 @@
     "team": "Team A",
     "result1": 301,
     "result2": 145,
-    "result3": 2
+    "result3": 2,
+    "sex": "m"
   },
   {
     "firstname": "Jane",
@@ -13,7 +14,8 @@
     "team": "Team B",
     "result1": 300,
     "result2": 146,
-    "result3": 15
+    "result3": 15,
+    "sex": "w"
   },
   {
     "firstname": "Bob",
@@ -21,7 +23,8 @@
     "team": "Team C",
     "result1": 300,
     "result2": 146,
-    "result3": 33
+    "result3": 33,
+    "sex": "m"
   },
   {
     "firstname": "Sarah",
@@ -29,7 +32,8 @@
     "team": "Team A",
     "result1": 720,
     "result2": 268,
-    "result3": 58
+    "result3": 58,
+    "sex": "w"
   },
   {
     "firstname": "Mike",
@@ -37,7 +41,8 @@
     "team": "Team B",
     "result1": 943,
     "result2": 732,
-    "result3": 79
+    "result3": 79,
+    "sex": "m"
   },
   {
     "firstname": "Tom",
@@ -45,7 +50,8 @@
     "team": "Team C",
     "result1": 193,
     "result2": 448,
-    "result3": 6
+    "result3": 6,
+    "sex": "m"
   },
   {
     "firstname": "Lisa",
@@ -53,7 +59,8 @@
     "team": "Team A",
     "result1": 52,
     "result2": 134,
-    "result3": 28
+    "result3": 28,
+    "sex": "w"
   },
   {
     "firstname": "David",
@@ -61,7 +68,8 @@
     "team": "Team B",
     "result1": 856,
     "result2": 654,
-    "result3": 47
+    "result3": 47,
+    "sex": "m"
   },
   {
     "firstname": "Amy",
@@ -69,7 +77,8 @@
     "team": "Team C",
     "result1": 422,
     "result2": 986,
-    "result3": 81
+    "result3": 81,
+    "sex": "w"
   },
   {
     "firstname": "Mike",
@@ -77,7 +86,8 @@
     "team": "Team A",
     "result1": 666,
     "result2": 777,
-    "result3": 71
+    "result3": 71,
+    "sex": "m"
   },
   {
     "firstname": "Jenny",
@@ -85,7 +95,8 @@
     "team": "Team B",
     "result1": 285,
     "result2": 99,
-    "result3": 9
+    "result3": 9,
+    "sex": "w"
   },
   {
     "firstname": "Ben",
@@ -93,7 +104,8 @@
     "team": "Team C",
     "result1": 789,
     "result2": 222,
-    "result3": 50
+    "result3": 50,
+    "sex": "m"
   },
   {
     "firstname": "Jessica",
@@ -101,7 +113,8 @@
     "team": "Team A",
     "result1": 317,
     "result2": 869,
-    "result3": 95
+    "result3": 95,
+    "sex": "w"
   },
   {
     "firstname": "Steve",
@@ -109,7 +122,8 @@
     "team": "Team B",
     "result1": 645,
     "result2": 213,
-    "result3": 22
+    "result3": 22,
+    "sex": "m"
   },
   {
     "firstname": "Emma",
@@ -117,6 +131,7 @@
     "team": "Team C",
     "result1": 890,
     "result2": 213,
-    "result3": 22
+    "result3": 22,
+    "sex": "w"
   }
 ]

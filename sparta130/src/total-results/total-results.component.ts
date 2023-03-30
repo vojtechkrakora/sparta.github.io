@@ -11,17 +11,31 @@ export class TotalResultsComponent implements OnInit {
 
   data: any[] | undefined;
   showColumn: boolean = true;
+  lastRefreshed: Date;
+  currentYear: number;
 
-  constructor(private service: TotalResultsService, private breakpointObserver: BreakpointObserver) { }
+  constructor(protected service: TotalResultsService, protected breakpointObserver: BreakpointObserver) {
+    this.currentYear = new Date().getFullYear();
+    this.lastRefreshed = new Date();
+  }
 
   ngOnInit() {
-    this.service.getData().subscribe(data => {
-      this.data = data.sort((a, b) => { return this.comparePlayers(a, b);});
-    });
+    this.refreshData();
 
     this.breakpointObserver.observe(['(max-width: 600px)']).subscribe(result => {
       this.showColumn = !result.matches;
     });
+
+    setInterval(() => {
+      this.refreshData();
+    }, 5000);
+  }
+
+  refreshData() {
+    this.service.getData().subscribe(data => {
+      this.data = data.sort((a, b) => { return this.comparePlayers(a, b);});
+    });
+    this.lastRefreshed = new Date();
   }
 
   dataOfTeam(data: any[] | undefined, teamName:string) {
