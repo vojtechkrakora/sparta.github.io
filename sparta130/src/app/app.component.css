@@ -1,32 +1,61 @@
-nav {
-  display: flex;
-  justify-content: center;
-}
-
 nav ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #333333;
 }
 
-nav li {
-  margin: 0 10px;
+nav ul li {
+  position: relative;
 }
 
-nav a {
+nav ul li a {
   display: block;
-  padding: 10px;
-  text-align: center;
+  padding: 1rem;
+  color: #fff;
   text-decoration: none;
-  font-size: 16px;
-  color: #333;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  font-size: 1.2rem;
 }
 
-nav a:hover {
-  background-color: #ddd;
+nav ul li:hover > a {
+  background-color: #555555;
+}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+nav ul ul li {
+  width: 200px;
+  border-bottom: 1px solid #555555;
+}
+
+nav ul li:hover > ul {
+  display: inherit;
+}
+
+nav ul ul li a:hover {
+  background-color: #666666;
+}
+
+nav ul ul ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+nav ul:before,
+nav ul:after {
+  content: " ";
+  display: table;
+}
+
+nav ul:after {
+  clear: both;
 }
