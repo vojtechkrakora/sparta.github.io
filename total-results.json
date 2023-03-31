@@ -2,7 +2,8 @@
   {
     "firstname": "John",
     "lastname": "Doe",
-    "team": "Team A",
+    "team": "Sparta A",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 301,
     "result2": 145,
     "result3": 2,
@@ -11,7 +12,8 @@
   {
     "firstname": "Jane",
     "lastname": "Smith",
-    "team": "Team B",
+    "team": "Sparta A",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 300,
     "result2": 146,
     "result3": 15,
@@ -20,7 +22,8 @@
   {
     "firstname": "Bob",
     "lastname": "Johnson",
-    "team": "Team C",
+    "team": "Sparta A",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 300,
     "result2": 146,
     "result3": 33,
@@ -29,7 +32,8 @@
   {
     "firstname": "Sarah",
     "lastname": "Lee",
-    "team": "Team A",
+    "team": "Sparta A",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 720,
     "result2": 268,
     "result3": 58,
@@ -38,7 +42,8 @@
   {
     "firstname": "Mike",
     "lastname": "Smith",
-    "team": "Team B",
+    "team": "Sparta A",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 943,
     "result2": 732,
     "result3": 79,
@@ -47,7 +52,8 @@
   {
     "firstname": "Tom",
     "lastname": "Brown",
-    "team": "Team C",
+    "team": "Sparta A",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 193,
     "result2": 448,
     "result3": 6,
@@ -56,7 +62,8 @@
   {
     "firstname": "Lisa",
     "lastname": "Taylor",
-    "team": "Team A",
+    "team": "Sparta B",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 52,
     "result2": 134,
     "result3": 28,
@@ -65,7 +72,8 @@
   {
     "firstname": "David",
     "lastname": "Nguyen",
-    "team": "Team B",
+    "team": "Sparta B",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 856,
     "result2": 654,
     "result3": 47,
@@ -74,7 +82,8 @@
   {
     "firstname": "Amy",
     "lastname": "Wong",
-    "team": "Team C",
+    "team": "Sparta B",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 422,
     "result2": 986,
     "result3": 81,
@@ -83,7 +92,8 @@
   {
     "firstname": "Mike",
     "lastname": "Chen",
-    "team": "Team A",
+    "team": "Sparta B",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 666,
     "result2": 777,
     "result3": 71,
@@ -92,7 +102,8 @@
   {
     "firstname": "Jenny",
     "lastname": "Kim",
-    "team": "Team B",
+    "team": "Sparta B",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 285,
     "result2": 99,
     "result3": 9,
@@ -101,7 +112,8 @@
   {
     "firstname": "Ben",
     "lastname": "Nguyen",
-    "team": "Team C",
+    "team": "Sparta B",
+    "teamLogo": "sparta_kuzelky.jpg",
     "result1": 789,
     "result2": 222,
     "result3": 50,
@@ -110,7 +122,8 @@
   {
     "firstname": "Jessica",
     "lastname": "Li",
-    "team": "Team A",
+    "team": "Fezko Strakonice",
+    "teamLogo": "fezko_logo.png",
     "result1": 317,
     "result2": 869,
     "result3": 95,
@@ -119,7 +132,8 @@
   {
     "firstname": "Steve",
     "lastname": "Wang",
-    "team": "Team B",
+    "team": "Fezko Strakonice",
+    "teamLogo": "fezko_logo.png",
     "result1": 645,
     "result2": 213,
     "result3": 22,
@@ -128,10 +142,221 @@
   {
     "firstname": "Emma",
     "lastname": "Zhang",
-    "team": "Team C",
+    "team": "Fezko Strakonice",
+    "teamLogo": "fezko_logo.png",
     "result1": 890,
     "result2": 213,
     "result3": 22,
     "sex": "w"
+  },
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "team": "Fezko Strakonice",
+    "teamLogo": "fezko_logo.png",
+    "result1": 301,
+    "result2": 145,
+    "result3": 2,
+    "sex": "m"
+  },
+  {
+    "firstname": "Jane",
+    "lastname": "Smith",
+    "team": "Fezko Strakonice",
+    "teamLogo": "fezko_logo.png",
+    "result1": 300,
+    "result2": 146,
+    "result3": 15,
+    "sex": "w"
+  },
+  {
+    "firstname": "Bob",
+    "lastname": "Johnson",
+    "team": "Fezko Strakonice",
+    "teamLogo": "fezko_logo.png",
+    "result1": 300,
+    "result2": 146,
+    "result3": 33,
+    "sex": "m"
+  },
+  {
+    "firstname": "Sarah",
+    "lastname": "Lee",
+    "team": "Kovohute Pribram",
+    "teamLogo": "pribram_logo.jpg",
+    "result1": 720,
+    "result2": 268,
+    "result3": 58,
+    "sex": "w"
+  },
+  {
+    "firstname": "Mike",
+    "lastname": "Smith",
+    "team": "Kovohute Pribram",
+    "teamLogo": "pribram_logo.jpg",
+    "result1": 943,
+    "result2": 732,
+    "result3": 79,
+    "sex": "m"
+  },
+  {
+    "firstname": "Tom",
+    "lastname": "Brown",
+    "team": "Kovohute Pribram",
+    "teamLogo": "pribram_logo.jpg",
+    "result1": 193,
+    "result2": 448,
+    "result3": 6,
+    "sex": "m"
+  },
+  {
+    "firstname": "Lisa",
+    "lastname": "Taylor",
+    "team": "Kovohute Pribram",
+    "teamLogo": "pribram_logo.jpg",
+    "result1": 52,
+    "result2": 134,
+    "result3": 28,
+    "sex": "w"
+  },
+  {
+    "firstname": "David",
+    "lastname": "Nguyen",
+    "team": "Kovohute Pribram",
+    "teamLogo": "pribram_logo.jpg",
+    "result1": 856,
+    "result2": 654,
+    "result3": 47,
+    "sex": "m"
+  },
+  {
+    "firstname": "Sarah",
+    "lastname": "Lee",
+    "team": "Kovohute Pribram",
+    "teamLogo": "pribram_logo.jpg",
+    "result1": 720,
+    "result2": 268,
+    "result3": 58,
+    "sex": "w"
+  },
+  {
+    "firstname": "Mike",
+    "lastname": "Smith",
+    "team": "Rudna",
+    "teamLogo": "rudna_kuzelky.jpg",
+    "result1": 943,
+    "result2": 732,
+    "result3": 79,
+    "sex": "m"
+  },
+  {
+    "firstname": "Tom",
+    "lastname": "Brown",
+    "team": "Rudna",
+    "teamLogo": "rudna_kuzelky.jpg",
+    "result1": 193,
+    "result2": 448,
+    "result3": 6,
+    "sex": "m"
+  },
+  {
+    "firstname": "Lisa",
+    "lastname": "Taylor",
+    "team": "Rudna",
+    "teamLogo": "rudna_kuzelky.jpg",
+    "result1": 52,
+    "result2": 134,
+    "result3": 28,
+    "sex": "w"
+  },
+  {
+    "firstname": "David",
+    "lastname": "Nguyen",
+    "team": "Rudna",
+    "teamLogo": "rudna_kuzelky.jpg",
+    "result1": 856,
+    "result2": 654,
+    "result3": 47,
+    "sex": "m"
+  },
+  {
+    "firstname": "Sarah",
+    "lastname": "Lee",
+    "team": "Rudna",
+    "teamLogo": "rudna_kuzelky.jpg",
+    "result1": 720,
+    "result2": 268,
+    "result3": 58,
+    "sex": "w"
+  },
+  {
+    "firstname": "Mike",
+    "lastname": "Smith",
+    "team": "Rudna",
+    "teamLogo": "rudna_kuzelky.jpg",
+    "result1": 943,
+    "result2": 732,
+    "result3": 79,
+    "sex": "m"
+  },
+  {
+    "firstname": "Tom",
+    "lastname": "Brown",
+    "team": "All stars",
+    "teamLogo": "all_logo.png",
+    "result1": 193,
+    "result2": 448,
+    "result3": 6,
+    "sex": "m"
+  },
+  {
+    "firstname": "Lisa",
+    "lastname": "Taylor",
+    "team": "All stars",
+    "teamLogo": "all_logo.png",
+    "result1": 52,
+    "result2": 134,
+    "result3": 28,
+    "sex": "w"
+  },
+  {
+    "firstname": "David",
+    "lastname": "Nguyen",
+    "team": "All stars",
+    "teamLogo": "all_logo.png",
+    "result1": 856,
+    "result2": 654,
+    "result3": 47,
+    "sex": "m"
+  },
+  {
+    "firstname": "Tom",
+    "lastname": "Brown",
+    "team": "All stars",
+    "teamLogo": "all_logo.png",
+    "result1": 193,
+    "result2": 448,
+    "result3": 6,
+    "sex": "m"
+  },
+  {
+    "firstname": "Lisa",
+    "lastname": "Taylor",
+    "team": "All stars",
+    "teamLogo": "all_logo.png",
+    "result1": 52,
+    "result2": 134,
+    "result3": 28,
+    "sex": "w"
+  },
+  {
+    "firstname": "David",
+    "lastname": "Nguyen",
+    "team": "All stars",
+    "teamLogo": "all_logo.png",
+    "result1": 856,
+    "result2": 654,
+    "result3": 47,
+    "sex": "m"
   }
 ]
