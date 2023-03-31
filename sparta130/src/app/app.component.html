@@ -1,4 +1,4 @@
-<nav>
+<nav id="desktop">
   <ul>
     <li><a routerLink="/">Výsledky</a>
       <ul>
@@ -14,4 +14,33 @@
     <li><a routerLink="/about">O turnaji</a></li>
   </ul>
 </nav>
+<input type="checkbox" id="hamburger-input" class="burger-shower" />
+<label id="hamburger-menu" for="hamburger-input">
+  <nav id="sidebar-menu">
+    <h3>Menu</h3>
+    <ul>
+      <li><a routerLink="/">Jednotlivci</a></li>
+      <li><a routerLink="/results/Team A">Příbram</a></li>
+      <li><a routerLink="/results/Team B">Rudná</a></li>
+      <li><a routerLink="/results/Team C">Sparta A</a></li>
+      <li><a routerLink="/results/Team A">Sparta B</a></li>
+      <li><a routerLink="/results/Team B">Strakonice</a></li>
+      <li><a routerLink="/results/Team C">Výběr</a></li>
+      <li><a routerLink="/about">O turnaji</a></li>
+    </ul>
+  </nav>
+</label>
+
+<div class="overlay"></div>
 <router-outlet></router-outlet>
+<script type="text/javascript">
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.querySelector('.menu ul');
+
+  hamburger.addEventListener('click', mobileMenu);
+
+  function mobileMenu() {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  }
+</script>

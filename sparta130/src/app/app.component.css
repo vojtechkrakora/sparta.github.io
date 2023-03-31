@@ -1,61 +1,147 @@
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
 
-  background-color: #333333;
+@media only screen and (min-width: 751px) {
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #333333;
+  }
+
+  nav ul li {
+    position: relative;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  nav ul li:hover > a {
+    background-color: #555555;
+  }
+
+  nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+  }
+
+  nav ul ul li {
+    width: 200px;
+    border-bottom: 1px solid #555555;
+  }
+
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+
+  nav ul ul li a:hover {
+    background-color: #666666;
+  }
+
+  nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+
+  nav ul:before,
+  nav ul:after {
+    content: " ";
+    display: table;
+  }
+
+  nav ul:after {
+    clear: both;
+  }
+
 }
 
-nav ul li {
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  padding: 1rem;
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-nav ul li:hover > a {
-  background-color: #555555;
-}
-
-nav ul ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
+#hamburger-input{
   display: none;
 }
 
-nav ul ul li {
-  width: 200px;
-  border-bottom: 1px solid #555555;
+#hamburger-menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Cabin', Sans-serif;
+    background: linear-gradient(
+      to bottom,
+      #333333, #333333 20%,
+      white 20%, white 40%,
+      #333333 40%, #333333 60%,
+      white 60%, white 80%,
+      #333333 80%, #333333 100%
+    );
 }
 
-nav ul li:hover > ul {
-  display: inherit;
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 200px;
+    height: 100%;
+    background-color: #333333;
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
 }
 
-nav ul ul li a:hover {
-  background-color: #666666;
+#hamburger-menu h3 {
+  color: #ffffff;
+  font-size: 2.2rem;
 }
 
-nav ul ul ul {
-  position: absolute;
-  left: 100%;
-  top: 0;
+#hamburger-menu ul {
+  padding-left: 0px;
 }
 
-nav ul:before,
-nav ul:after {
-  content: " ";
-  display: table;
+#hamburger-menu li {
+  list-style-type: none;
+  line-height: 3rem;
 }
 
-nav ul:after {
-  clear: both;
+#hamburger-menu a {
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+#hamburger-menu a:hover {
+  text-decoration: underline;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu {
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay{
+   visibility: visible;
+  opacity: 0.4;
+}
+
+
+@media screen and (max-width: 750px) {
+  #desktop {
+    display: none;
+  }
+  #hamburger-menu {
+    display: inline;
+  }
 }

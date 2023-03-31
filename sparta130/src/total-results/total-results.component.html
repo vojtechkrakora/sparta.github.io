@@ -2,7 +2,7 @@
 <table>
   <thead>
   <tr>
-    <th>Pořadí</th>
+    <th>P</th>
     <th *ngIf="showColumn">Jméno</th>
     <th>Příjmení</th>
     <th>Tým</th>
@@ -15,7 +15,7 @@
   </thead>
   <tbody>
   <tr *ngFor="let item of data; let i = index">
-    <td>{{ i + 1 }}</td>
+    <td>{{ i + 1 }}.</td>
     <td *ngIf="showColumn">{{ item.firstname }}</td>
     <td>{{ item.lastname }}</td>
     <td  *ngIf="showColumn">{{ item.team }}</td>
