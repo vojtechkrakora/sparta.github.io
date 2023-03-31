@@ -2,23 +2,25 @@ import { Component, OnInit } from '@angular/core';
 import { TotalResultsService } from '../total-results-service.service';
 import { BreakpointObserver } from '@angular/cdk/layout';
 import { ActivatedRoute } from '@angular/router';
-import {TotalResultsComponent} from "../../total-results/total-results.component";
 
 @Component({
   selector: 'app-team-data',
   templateUrl: './team-data.component.html',
   styleUrls: ['./team-data.component.css']
 })
-export class TeamDataComponent extends TotalResultsComponent implements OnInit {
+export class TeamDataComponent  implements OnInit {
 
   data: any[] | undefined;
   showColumn: boolean = true;
   teamName: string | null;
+  lastRefreshed: Date;
+  currentYear: number;
 
   constructor(protected service: TotalResultsService, protected breakpointObserver: BreakpointObserver,
       private route: ActivatedRoute) {
-    super(service, breakpointObserver)
     this.teamName = null
+    this.currentYear = new Date().getFullYear();
+    this.lastRefreshed = new Date();
   }
 
   ngOnInit(): void {
@@ -33,11 +35,25 @@ export class TeamDataComponent extends TotalResultsComponent implements OnInit {
     this.breakpointObserver.observe(['(max-width: 600px)']).subscribe(result => {
       this.showColumn = !result.matches;
     });
+
+    setInterval(() => {
+      this.refreshData();
+    }, 5000);
+  }
+
+  refreshData() {
+    this.service.getData().subscribe(data => {
+      this.data = data.sort((a, b) => { return this.comparePlayers(a, b);});
+    });
+    this.lastRefreshed = new Date();
   }
 
   dataOfTeam(data: any[] | undefined, teamName:string | null) {
     if(data == undefined) {
       return []
+    }
+    if (teamName == undefined) {
+      return data;
     }
     return data.filter(dat => dat.team == teamName)
   }

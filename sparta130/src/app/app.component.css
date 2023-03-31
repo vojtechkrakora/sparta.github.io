@@ -12,6 +12,7 @@
   }
 
   nav ul li {
+    z-index: 1000;
     position: relative;
   }
 

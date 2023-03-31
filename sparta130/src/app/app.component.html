@@ -3,14 +3,15 @@
     <li><a routerLink="/">Výsledky</a>
       <ul>
         <li><a routerLink="/">Jednotlivci</a></li>
-        <li><a routerLink="/results/Team A">Příbram</a></li>
-        <li><a routerLink="/results/Team B">Rudná</a></li>
-        <li><a routerLink="/results/Team C">Sparta A</a></li>
-        <li><a routerLink="/results/Team A">Sparta B</a></li>
-        <li><a routerLink="/results/Team B">Strakonice</a></li>
-        <li><a routerLink="/results/Team C">Výběr</a></li>
+        <li><a routerLink="/results/Kovohute Pribram">Příbram</a></li>
+        <li><a routerLink="/results/Rudna">Rudná</a></li>
+        <li><a routerLink="/results/Sparta A">Sparta A</a></li>
+        <li><a routerLink="/results/Sparta B">Sparta B</a></li>
+        <li><a routerLink="/results/Fezko Strakonice">Strakonice</a></li>
+        <li><a routerLink="/results/All stars">Výběr</a></li>
       </ul>
     </li>
+    <li><a routerLink="/results">Týmové výsledky</a></li>
     <li><a routerLink="/about">O turnaji</a></li>
   </ul>
 </nav>
@@ -20,12 +21,12 @@
     <h3>Menu</h3>
     <ul>
       <li><a routerLink="/">Jednotlivci</a></li>
-      <li><a routerLink="/results/Team A">Příbram</a></li>
-      <li><a routerLink="/results/Team B">Rudná</a></li>
-      <li><a routerLink="/results/Team C">Sparta A</a></li>
-      <li><a routerLink="/results/Team A">Sparta B</a></li>
-      <li><a routerLink="/results/Team B">Strakonice</a></li>
-      <li><a routerLink="/results/Team C">Výběr</a></li>
+      <li><a routerLink="/results/Kovohute Pribram">Příbram</a></li>
+      <li><a routerLink="/results/Rudna">Rudná</a></li>
+      <li><a routerLink="/results/Sparta A">Sparta A</a></li>
+      <li><a routerLink="/results/Sparta B">Sparta B</a></li>
+      <li><a routerLink="/results/Fezko Strakonice">Strakonice</a></li>
+      <li><a routerLink="/results/All stars">Výběr</a></li>
       <li><a routerLink="/about">O turnaji</a></li>
     </ul>
   </nav>
@@ -33,14 +34,4 @@
 
 <div class="overlay"></div>
 <router-outlet></router-outlet>
-<script type="text/javascript">
-  const hamburger = document.querySelector('.hamburger');
-  const navMenu = document.querySelector('.menu ul');
 
-  hamburger.addEventListener('click', mobileMenu);
-
-  function mobileMenu() {
-    hamburger.classList.toggle('active');
-    navMenu.classList.toggle('active');
-  }
-</script>

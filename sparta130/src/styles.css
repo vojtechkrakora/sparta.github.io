@@ -25,3 +25,13 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.logo_small {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: white;
+}
