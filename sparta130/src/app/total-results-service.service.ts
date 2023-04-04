@@ -8,10 +8,12 @@ import { Observable } from 'rxjs';
 export class TotalResultsService {
 
   private dataUrl = 'total-results.json';
+  private cacheBustingId = new Date().getTime();
 
   constructor(private http: HttpClient) { }
 
   getData(): Observable<any[]> {
-    return this.http.get<any[]>(this.dataUrl);
+    const url = `${this.dataUrl}?cacheBustingId=${this.cacheBustingId}`;
+    return this.http.get<any[]>(url);
   }
 }
