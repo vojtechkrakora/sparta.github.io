@@ -1,7 +1,7 @@
+<div id="progress">
+  <div class="loader"></div>
+</div>
 <div class="team-squares">
-  <div id="progress">
-    <div class="loader"></div>
-  </div>
   <div *ngFor="let entry of mapEntries; let i = index"  class="team-square">
     <img class="logo" src="assets/{{entry[0].logo}}" alt="Team 1 Logo">
     <div class="team-name">{{entry[0].name}}</div>
