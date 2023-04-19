@@ -12,14 +12,8 @@ export class TotalResultsService {
 
   constructor(private http: HttpClient) { }
 
-  getData(firstTime = false): Observable<any[]> {
-    if (firstTime) {
-      const url = `${this.dataUrl}`;
-      console.log("First time data.")
-      return this.http.get<any[]>(url);
-    } else {
-      const url = `${this.dataUrl}?cacheBustingId=${this.cacheBustingId}`;
-      return this.http.get<any[]>(url);
-    }
+  getData(): Observable<any[]> {
+    const url = `${this.dataUrl}?cacheBustingId=${this.cacheBustingId}`;
+    return this.http.get<any[]>(url);
   }
 }

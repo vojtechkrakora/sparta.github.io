@@ -15,7 +15,6 @@ export class TeamResultsComponent implements OnInit {
     this.service.getData().subscribe(data => {
       this.data = data;
     });
-    console.log(this.data);
     this.lastRefreshed = new Date();
     this.refreshData()
   }
@@ -52,7 +51,6 @@ export class TeamResultsComponent implements OnInit {
     this.getDistinctTeams();
     const progressBar = document.getElementById("progress");
     if (this.data.length != 0 && progressBar != null) {
-      console.log(this.data.length);
       progressBar.style.display = "none";
     }
   }
