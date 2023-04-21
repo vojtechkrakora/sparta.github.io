@@ -102,6 +102,7 @@
     transition: 0.3s;
     padding: 0px 10px;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 #hamburger-menu h3 {
