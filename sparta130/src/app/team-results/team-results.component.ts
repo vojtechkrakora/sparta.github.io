@@ -56,23 +56,22 @@ export class TeamResultsComponent implements OnInit {
   }
 
   getDistinctTeams() {
-    const teamSet = new Set();
-    this.data.forEach(obj => {
-      teamSet.add(obj.team);
-    });
-    const teams = Array.from(teamSet);
-    let teamResults = new Map();
-    for (let i = 0; i < teams.length; i++) {
-      let teamResult = 0;
-      let teamLogo = "";
-      for(let j = 0; j < this.data.length; j++) {
-        if (teams[i] === this.data[j].team) {
-          teamResult += this.data[j].result1 + this.data[j].result1;
-          teamLogo = this.data[j].teamLogo;
-        }
+    const result = new Map();
+
+    this.data.forEach(player => {
+      const teamName = player.team;
+      const resultSum = player.result1 + player.result2;
+      const teamLogo = player.teamLogo;
+
+
+      if (result.has(teamName)) {
+        const totalSum = result.get(teamName).totalSum + resultSum;
+        result.set(teamName, {"name": teamName, "logo": teamLogo, "totalSum": totalSum});
+      } else {
+        result.set(teamName, {"name": teamName, "logo": teamLogo, "totalSum": resultSum});
       }
-      teamResults.set({"name": teams[i], "logo": teamLogo}, teamResult);
-    }
-    this.mapEntries = [...teamResults.entries()].sort((a, b) => b[1] - a[1]);
+    });
+
+    this.mapEntries = [...result.entries()].sort((a, b) => b[1].totalSum - a[1].totalSum);
   }
 }

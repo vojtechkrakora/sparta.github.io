@@ -3,9 +3,9 @@
 </div>
 <div class="team-squares">
   <div *ngFor="let entry of mapEntries; let i = index"  class="team-square">
-    <img class="logo" src="assets/{{entry[0].logo}}" alt="Team 1 Logo">
-    <div class="team-name">{{entry[0].name}}</div>
-    <div class="team-result">Nához: <strong>{{entry[1]}}</strong> kuželek</div>
+    <img class="logo" src="assets/{{entry[1].logo}}" alt="Team 1 Logo">
+    <div class="team-name">{{entry[1].name}}</div>
+    <div class="team-result">Nához: <strong>{{entry[1].totalSum}}</strong> kuželek</div>
   </div>
 </div>
 
