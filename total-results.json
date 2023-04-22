@@ -1,7 +1,7 @@
 [
   {
-    "firstname": "Sparta A",
-    "lastname": "1",
+    "firstname": "Miroslav",
+    "lastname": "Viktorin",
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -10,8 +10,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta A",
-    "lastname": "2",
+    "firstname": "Jaroslav",
+    "lastname": "Pleticha",
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -20,8 +20,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta A",
-    "lastname": "3",
+    "firstname": "Petr",
+    "lastname": "Neumajer",
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -30,8 +30,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta A",
-    "lastname": "4",
+    "firstname": "Václav",
+    "lastname": "Klička",
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -40,8 +40,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta A",
-    "lastname": "5",
+    "firstname": "Pavel",
+    "lastname": "Pavlíček",
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -50,8 +50,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta A",
-    "lastname": "6",
+    "firstname": "Petr",
+    "lastname": "Hartina",
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -60,8 +60,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta B",
-    "lastname": "1",
+    "firstname": "Tomáš",
+    "lastname": "Sůva",
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -70,8 +70,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta B",
-    "lastname": "2",
+    "firstname": "Kristina",
+    "lastname": "Řádková",
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -80,8 +80,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta B",
-    "lastname": "3",
+    "firstname": "Vítek",
+    "lastname": "Fikejzl",
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -90,8 +90,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta B",
-    "lastname": "4",
+    "firstname": "Jan",
+    "lastname": "Červenka",
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -100,8 +100,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta B",
-    "lastname": "5",
+    "firstname": "Jiří",
+    "lastname": "Lankaš",
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -110,8 +110,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sparta B",
-    "lastname": "6",
+    "firstname": "Jan",
+    "lastname": "Vácha",
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 0,
@@ -120,8 +120,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Fezko",
-    "lastname": "Strakonice 1",
+    "firstname": "Karel",
+    "lastname": "Palán",
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 0,
@@ -130,8 +130,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Fezko",
-    "lastname": "Strakonice 2",
+    "firstname": "Josef",
+    "lastname": "Hůda",
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 0,
@@ -140,8 +140,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Fezko",
-    "lastname": "Strakonice 3",
+    "firstname": "Jaroslav",
+    "lastname": "Petráň",
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 0,
@@ -150,8 +150,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Fezko",
-    "lastname": "Strakonice 4",
+    "firstname": "Václav",
+    "lastname": "Valhoda",
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 0,
@@ -160,8 +160,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Fezko",
-    "lastname": "Strakonice 5",
+    "firstname": "Miroslav",
+    "lastname": "Kocour",
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 0,
@@ -170,8 +170,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Fezko",
-    "lastname": "Strakonice 6",
+    "firstname": "Hana",
+    "lastname": "Kyriánová",
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 0,
@@ -180,8 +180,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Kovohutě",
-    "lastname": "Příbram 1",
+    "firstname": "Petr",
+    "lastname": "Kříž",
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 0,
@@ -190,8 +190,8 @@
     "sex": "w"
   },
   {
-    "firstname": "Kovohutě",
-    "lastname": "Příbram 2",
+    "firstname": "Tomáš",
+    "lastname": "Číž",
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 0,
@@ -200,8 +200,8 @@
     "sex": "w"
   },
   {
-    "firstname": "Kovohutě",
-    "lastname": "Příbram 3",
+    "firstname": "Václav",
+    "lastname": "Kodet",
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 0,
@@ -210,8 +210,8 @@
     "sex": "w"
   },
   {
-    "firstname": "Kovohutě",
-    "lastname": "Příbram 4",
+    "firstname": "Jaroslav",
+    "lastname": "Chmel",
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 0,
@@ -220,8 +220,8 @@
     "sex": "w"
   },
   {
-    "firstname": "Kovohutě",
-    "lastname": "Příbram 5",
+    "firstname": "Miloš",
+    "lastname": "Brenink",
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 0,
@@ -230,8 +230,8 @@
     "sex": "w"
   },
   {
-    "firstname": "Kovohutě",
-    "lastname": "Příbram 6",
+    "firstname": "Ladislav",
+    "lastname": "Pergl",
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 0,
@@ -240,8 +240,8 @@
     "sex": "w"
   },
   {
-    "firstname": "Sokol",
-    "lastname": "Rudná 1",
+    "firstname": "Pavel",
+    "lastname": "Kasal",
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 0,
@@ -250,8 +250,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sokol",
-    "lastname": "Rudná 2",
+    "firstname": "Luboš",
+    "lastname": "Machulka",
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 0,
@@ -260,8 +260,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sokol",
-    "lastname": "Rudná 3",
+    "firstname": "Peter",
+    "lastname": "Koščo",
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 0,
@@ -270,8 +270,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sokol",
-    "lastname": "Rudná 4",
+    "firstname": "Radek",
+    "lastname": "Machulka",
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 0,
@@ -280,8 +280,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sokol",
-    "lastname": "Rudná 5",
+    "firstname": "Petra",
+    "lastname": "Koščová",
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 0,
@@ -290,8 +290,8 @@
     "sex": "m"
   },
   {
-    "firstname": "Sokol",
-    "lastname": "Rudná 6",
+    "firstname": "Jaromír",
+    "lastname": "Bok",
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 0,
@@ -300,8 +300,8 @@
     "sex": "m"
   },
   {
-    "firstname": "All",
-    "lastname": "Stars 1",
+    "firstname": "Karel",
+    "lastname": "Koubek",
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 0,
@@ -310,8 +310,8 @@
     "sex": "m"
   },
   {
-    "firstname": "All",
-    "lastname": "Stars 2",
+    "firstname": "Jiří",
+    "lastname": "Vokurka",
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 0,
@@ -320,8 +320,8 @@
     "sex": "m"
   },
   {
-    "firstname": "All",
-    "lastname": "Stars 3",
+    "firstname": "Jiří",
+    "lastname": "Maťátko",
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 0,
@@ -330,8 +330,8 @@
     "sex": "m"
   },
   {
-    "firstname": "All",
-    "lastname": "Stars 4",
+    "firstname": "Adam",
+    "lastname": "Lesák",
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 0,
@@ -340,8 +340,8 @@
     "sex": "m"
   },
   {
-    "firstname": "All",
-    "lastname": "Stars 5",
+    "firstname": "Oldřich",
+    "lastname": "Hendl",
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 0,
@@ -350,8 +350,8 @@
     "sex": "m"
   },
   {
-    "firstname": "All",
-    "lastname": "Stars 6",
+    "firstname": "Tomáš",
+    "lastname": "Keller",
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 0,
