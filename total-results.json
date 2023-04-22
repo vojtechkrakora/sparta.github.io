@@ -55,8 +55,8 @@
     "team": "Sparta A",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 314,
-    "result2": 0,
-    "result3": 0,
+    "result2": 138,
+    "result3": 1,
     "sex": "m"
   },
   {
@@ -115,8 +115,8 @@
     "team": "Sparta B",
     "teamLogo": "sparta_kuzelky.jpg",
     "result1": 282,
-    "result2": 0,
-    "result3": 0,
+    "result2": 114,
+    "result3": 11,
     "sex": "m"
   },
   {
@@ -175,8 +175,8 @@
     "team": "Fezko Strakonice",
     "teamLogo": "fezko_logo.png",
     "result1": 278,
-    "result2": 0,
-    "result3": 0,
+    "result2": 99,
+    "result3": 12,
     "sex": "m"
   },
   {
@@ -235,8 +235,8 @@
     "team": "Kovohute Pribram",
     "teamLogo": "pribram_logo.jpg",
     "result1": 279,
-    "result2": 0,
-    "result3": 0,
+    "result2": 120,
+    "result3": 9,
     "sex": "w"
   },
   {
@@ -295,8 +295,8 @@
     "team": "Rudna",
     "teamLogo": "rudna_kuzelky.jpg",
     "result1": 304,
-    "result2": 0,
-    "result3": 0,
+    "result2": 104,
+    "result3": 13,
     "sex": "m"
   },
   {
@@ -355,8 +355,8 @@
     "team": "All stars",
     "teamLogo": "all_logo.png",
     "result1": 260,
-    "result2": 0,
-    "result3": 0,
+    "result2": 133,
+    "result3": 12,
     "sex": "m"
   }
 ]
